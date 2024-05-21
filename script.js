@@ -128,7 +128,7 @@ document.body.onkeyup = function (e) {
   }
 }
 
-document.body.onkeyup = function (a) {
+/*document.body.onkeyup = function (a) {
   if (a.keyCode == 39) {
     nextSong();
   }
@@ -138,4 +138,4 @@ document.body.onkeyup = function (o) {
   if (o.keyCode == 37) {
     prevSong();
   }
-}
+}*/
