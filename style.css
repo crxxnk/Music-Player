@@ -53,7 +53,9 @@ body
   width: 0;
   height: 6px;
   border-radius: 20px;
-  background: #da274e8e
+  background: #6717d1;
+  box-shadow: 0 0 20px #751aec;
+  filter: blur(0.5px);
 }
 
 .container .song-info .time
@@ -118,7 +120,8 @@ body
 
 .container .controls #play
 {
-  background-color: #1db954;
+  background-color: #6717d1;
+  box-shadow: 0 0 20px #6717d1;
   color: #fff;
   padding: 13px 15px 13px 17px;
   font-size: 28px;
@@ -128,7 +131,7 @@ body
 
 .container .controls #play:hover
 {
-  background: #189945;
+  background: #5513ac;
 }
 
 .container .controls i
@@ -155,4 +158,9 @@ body
   {
     transform: rotateZ(360deg);
   }
+}
+
+#shuffle:active
+{
+  color: #fff;
 }
